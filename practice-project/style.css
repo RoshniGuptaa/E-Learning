@@ -1,41 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -169,7 +131,7 @@ form .btn {
 }
 
 .header-img {
-  max-width: 300px;
+  max-width: 600px;
   min-width: 200px;
   animation: right 1s ease-in-out;
 }
@@ -404,21 +366,21 @@ form .btn {
 }
 
 .testimonials-container .card-img.img-1 {
-  /* background: url("./img/testimonial-1.jpg") no-repeat center center/cover; */
+  background: url("./img/testimonial-1.jpg") no-repeat center center/cover;
 }
 
 .testimonials-container .card-img.img-2 {
-  /* background: url("./img/testimonial-2.jpg") no-repeat center top/cover; */
+  background: url("./img/testimonial-2.jpg") no-repeat center top/cover;
 }
 
 .testimonials-container .card-img.img-3 {
-  /* background: url("./img/testimonial-3.jpg") no-repeat center top/cover;*/
-  background-size: 150%; 
+  background: url("./img/testimonial-3.jpg") no-repeat center top/cover;
+  background-size: 150%;
 }
 
 .testimonials-container .card-img.img-4 {
-  /* background: url("./img/testimonial-4.jpg") no-repeat center top/cover;
-  */background-size: 120%; 
+  background: url("./img/testimonial-4.jpg") no-repeat center top/cover;
+  background-size: 120%;
 }
 /* todo: Update testimonial */
 
@@ -584,7 +546,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  /* display: none; */
+  display: none;
 }
 
 .modal-content {
